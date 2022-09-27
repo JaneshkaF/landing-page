@@ -9,13 +9,12 @@ import Cardbox from "./cardbox.jsx"
 //include images into your bundle
 //create your first component
 const Home = () => {
-	const [stormCounter, setStormCounter] = useState(0);
 		return (
 		     <div>
 		      <NavBar/>
 		      <div className="container-fluid">
 		      <Jumbotron />
-		      <CardBox />
+		      <Cardbox />
 		    </div>
 		      <Footer />
 		    </div>
