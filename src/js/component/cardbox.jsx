@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../../styles/index.css"
 const CardBox =() => {
     let cardInfo = [
         {
@@ -46,7 +46,7 @@ const CardBox =() => {
          {cardInfo.map((card, index) => {
         return (
           <div key={index}>
-          <div className="card">
+          <div className="card" style={{width: "18rem"}}>
           <img
          className="card-img-top"
           src={card.imageUrl}

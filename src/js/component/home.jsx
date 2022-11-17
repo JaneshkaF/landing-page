@@ -10,14 +10,15 @@ import Cardbox from "./cardbox.jsx"
 //create your first component
 const Home = () => {
 		return (
-		     <div>
-		      <NavBar/>
-		      <div className="container-fluid">
-		      <Jumbotron />
-		      <Cardbox />
-		    </div>
-		      <Footer />
-		    </div>
+			<><NavBar /><div>
+				<div className="container-fluid">
+					<Jumbotron />
+					<br></br>
+					<Cardbox />
+				</div>
+				<br></br>
+				<Footer />
+			</div></>
 		);
 		};
 
