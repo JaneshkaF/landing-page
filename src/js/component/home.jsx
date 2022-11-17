@@ -11,7 +11,7 @@ import Cardbox from "./cardbox.jsx"
 const Home = () => {
 		return (
 			<><NavBar /><div>
-				<div className="container-fluid">
+				<div className="container">
 					<Jumbotron />
 					<br></br>
 					<Cardbox />
